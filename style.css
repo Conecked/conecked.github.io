@@ -1,0 +1,15 @@
+.background {
+    background: url("images/concrete_seamless.png");
+    margin-top: 0;
+}
+
+.jumbotron {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background: white;
+}
+
+#portfolio {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
