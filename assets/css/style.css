@@ -6,19 +6,19 @@ body {
 }
 
 #musiQuery {
-    background-image: url("../images/musiQuery.jpg");
+    background-image: url("../images/musiQuery_scrnshot.jpg");
     background-size: cover;
     background-position: center;
 }
 
 #gifTastic {
-    background-image: url("../images/gifTastic_scrnshot.png");
+    background-image: url("../images/gifTastic.png");
     background-size: cover;
     background-position: center;
 }
 
 #triviaGame {
-    background-image: url("../images/TriviaGame_scrnshot.jpg");
+    background-image: url("../images/TriviaGame.jpg");
     background-size: cover;
     background-position: center;
 }
