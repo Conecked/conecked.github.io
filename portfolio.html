@@ -5,116 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio | Armando Silva</title>
-
+    <title>A.Silva | Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Covered+By+Your+Grace|Josefin+Slab|Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark p-0 border-bottom border-secondary" id="navbar-main">
+        <a class="navbar-brand ml-5 btn btn-primary btn-lg text-white p-4 rounded-0" href="portfolio.html">AS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-lg-flex flex-row-reverse mr-5 text-blue" id="navbarNav">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary" href="#contact">Contact</a>
+                </li>
+            </ul>
+    </nav>
+    <div data-spy="scroll" data-target="#navbar-main" data-offset="0">
+            <img src="assets/images/me_smile.jpg" alt="image" height="250px" class="rounded-circle" style="margin-top: 200px" id="aboutImage">
+            <div class="aboutContainer">
+                <div class="row">
+                <div class="col-sm"></div>
+                <div class="col-lg-8">
+        <h2 id="home" class="text-center">About:</h2>
+        <p>Hello world! I am Armando Silva. I am an individual who walks to the beat of his own drum, sometimes double bass,
+            but also a person who can know his role when he needs to. I pride myself in my pride. I consider myself to be
+            a loyal, hard working individual.
+        </p>
+
+        <p>I have decided to jump into this adventure of coding and web development. It is certainly something I have had an
+            interest in since I have been introduced to the internet. Wondering how it works. It must've taken such work,
+            such new thinking, a curiousity, a will, a drive and courage. Yeah, it had my attention. I am currently enrolled
+            (enthralled) in UCSD Coding Bootcamp. My hopes are to open up new options that will allow me to live the life
+            I would like for my family and I.
+        </p>
+
+        <p>My hopes are to become a bit more productive, creative, appreciated for what I can add to a team. I believe I have
+            a valuable skill set that can be very useful to any team I find myself on. I try to push to be the best and push
+            others around me to realize they are just as qualified. Thank you for taking the time to look over this, it is
+            appreciated.
+        </p>
+    </div>
+    <div class="col-sm"></div>
+    </div>
+    </div>
+        <div class="text-center">
+        <h2 id="portfolio" style="margin-top:200px">Portfolio</h2>
+        <p>Currently one group project, musiQuery, and collection of class assignments</p>
+    </div>
+        <div class="container">
+            <div class="card text-center mt-5">
+                <div class="card-header bg-info">
+                    <a href="https://mekken.github.io/Project-1/" class="text-white">musiQuery</a>
+                </div>
+                <div class="card-body" id="musiQuery" style="height: 400px">
+                    <!-- <h5 class="card-title">Special title treatment</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <div class="card-footer text-muted bg-info">
+                    <a href="https://github.com/Mekken/Project-1" class="text-white">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card text-center mt-5">
+                <div class="card-header bg-info">
+                    <a href="https://conecked.github.io/GifTastic" class="text-white">GifTastic!</a>
+                </div>
+                <div class="card-body" id="gifTastic" style="height: 400px">
+                    <!-- <h5 class="card-title">Special title treatment</h5>
+                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <div class="card-footer text-muted bg-info">
+                    <a href="https://github.com/Conecked/GifTastic" class="text-white">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card text-center mt-5">
+                <div class="card-header bg-info">
+                    <a href="https://conecked.github.io/TriviaGame/" class="text-white">San Diego Padres Trivia Game</a>
+                </div>
+                <div class="card-body" id="triviaGame" style="height: 400px">
+                    <!-- <h5 class="card-title">Special title treatment</h5>
+                                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                  <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <div class="card-footer text-muted bg-info">
+                    <a href="https://github.com/Conecked/TriviaGame" class="text-white">GitHub Repo</a>
+                </div>
+            </div>
+            <div class="card text-center mt-5">
+                <div class="card-header bg-info">
+                    <a href="https://conecked.github.io/unit-4-game/" class="text-white">Crystal Collectors!</a>
+                </div>
+                <div class="card-body" id="crystalCollect" style="height: 400px">
+                    <!-- <h5 class="card-title">Special title treatment</h5>
+                                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                      <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+                <div class="card-footer text-muted bg-info">
+                    <a href="https://github.com/Conecked/unit-4-game" class="text-white">GitHub Repo</a>
+                </div>
+            </div>
+
+       
+    </div>
+    <h4 id="contact" style="margin-top:175px" class="text-center">Contact</h4>
     <div class="background">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 border-bottom border-secondary">
-            <a class="navbar-brand ml-5 btn btn-info btn-lg text-white p-4 rounded-0" href="index.html">Armando Silva</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex flex-row-reverse mr-5" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="portfolio.html">Portfolio
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="container" id="portfolio">
+        <div class="container">
             <div class="row">
-                <div class="col"></div>
+                <div class="col">
+                </div>
                 <div class="col-10">
-                    <div class="row mb-4">
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://conecked.github.io/Word-Guess-Game">
-                                    <img class="card-img-top" src="Images/wordGuessGame_scrnshot.JPG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">Word Guess</div>
-                            </div>
-                            </a>
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h1 class="display-5 text-info m-0">Contact</h1>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Smith">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                                </div>
+                            </form>
+                            <button type="submit" class="btn btn-info btn-lg">Submit</button>
                         </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://conecked.github.io/unit-4-game/">
-                                    <img class="card-img-top" src="Images/crystalCollectors_scrnshot.JPG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">Crystal Collectors!</div>
-                            </div>
-                            </a>
-                        </div>
-                        <div class="col"></div>
                     </div>
-                    <div class="row mb-4">
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://conecked.github.io/TriviaGame/">
-                                    <img class="card-img-top" src="Images/TriviaGame_scrnshot.JPG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">Trivia Game</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://conecked.github.io/TrainScheduler">
-                                    <img class="card-img-top" src="Images/trainScheduler.JPG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">Train Scheduler</div>
-                                    </a>
-                            </div>
-                        </div>
-                        <div class="col"></div>
-                    </div>
-                    <div class="row mb-4">
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://mekken.github.io/Project-1/">
-                                    <img class="card-img-top" src="Images/musiQuery.JPG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">musiQuery</div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card" style="width: 18rem;">
-                                <a href="https://conecked.github.io/GifTastic">
-                                    <img class="card-img-top" src="Images/gifTastic_scrnshot.PNG" height="215px" alt="Card image cap">
-                                    <div class="card-header bg-info text-white h6 text-center">Gif Tastic!</div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col"></div>
-        <!-- </div> -->
-        <!-- </div> -->
-        <div class="p-1 mb-0 bg-info text-white"></div>
-        <div class="p-3 mb-2 bg-dark text-white">
-            <div class="row align-items-end">
-                <div class="col">
-                </div>
-                <div class="col text-center font-weight-light">
-                    Copyright ©
                 </div>
                 <div class="col">
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    <div class="p-1 mb-0 bg-info text-white"></div>
+    <div class="p-3 mb-2 bg-dark text-white">
+        <div class="row align-items-end">
+            <div class="col">
+            </div>
+            <div class="col text-center font-weight-light">
+                Copyright ©
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

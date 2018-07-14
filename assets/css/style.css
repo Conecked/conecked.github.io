@@ -1,0 +1,42 @@
+body {
+    background: url("../images/ep_naturalblack.png");
+    color: white;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+}
+
+#musiQuery {
+    background-image: url("../images/musiQuery.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#gifTastic {
+    background-image: url("../images/gifTastic_scrnshot.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#triviaGame {
+    background-image: url("../images/TriviaGame_scrnshot.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#crystalCollect {
+    background-image: url("../images/crystalCollectors_scrnshot.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+}
+
+#aboutImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
