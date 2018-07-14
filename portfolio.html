@@ -18,10 +18,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark p-0 border-bottom border-secondary" id="navbar-main">
         <a class="navbar-brand ml-5 btn btn-primary btn-lg text-white p-4 rounded-0" href="portfolio.html">AS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="dropdown">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarDropdown"
+                aria-expanded="false" aria-label="Toggle navigation" href="#navbarDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse" id="navbarDropdown">
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
         <div class="collapse navbar-collapse d-lg-flex flex-row-reverse mr-5 text-blue" id="navbarNav">
             <ul class="nav nav-pills">
                 <li class="nav-item">
@@ -145,12 +152,16 @@
                 <a href="https://github.com/Conecked">
                     <img src="assets/images/github2.jpg" height="50px">
                 </a>
+            </div>
+            <div class="col">
                 <a href="www.linkedin.com/in/armando-silva-509b6731">
                     <img src="assets/images/linkedIn.png" height="50px">
                 </a>
             </div>
             <div class="col text-center font-weight-light">
                 Copyright ©
+            </div>
+            <div class="col">
             </div>
             <div class="col">
             </div>
