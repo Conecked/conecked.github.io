@@ -30,7 +30,7 @@ body {
 }
 
 #hangman {
-    background-image: url("../images/wordGuessGame_scrnshot.jpg");
+    background-image: url("../images/wordGuessGame.jpg");
     background-size: cover;
     /* background-position: center; */
 }
