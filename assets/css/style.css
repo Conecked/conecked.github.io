@@ -79,3 +79,20 @@ a {
     text-align: center;
     transform: rotateY(180deg);
 }
+
+.box {
+    background: #0087cc;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 95px;
+    line-height: 95px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: 1s, 1s;
+    transition-timing-function: linear;
+    width: 95px;
+  }
+  .box:hover {
+    background: lightslategray;
+    border-radius: 50%;
+  }
