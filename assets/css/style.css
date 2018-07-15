@@ -5,6 +5,18 @@ body {
     font-size: 20px;
 }
 
+@media only screen and (max-width: 600px) {
+    #musiQuery,
+    #gifTastic,
+    #triviaGame,
+    #crystalCollect,
+    #hangman,
+    #train
+     {
+        background-position: center;
+    }
+}
+
 #musiQuery {
     background-image: url("../images/musiQuery_scrnshot.jpg");
     background-size: cover;
