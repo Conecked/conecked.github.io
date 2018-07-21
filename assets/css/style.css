@@ -17,7 +17,8 @@ body {
     }
 }
 
-@media only screen and (max-width: 321px) {
+/* @media only screen and (max-width: 321px) */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     #musiQuery,
     #gifTastic,
     #triviaGame,
@@ -32,37 +33,36 @@ body {
 #musiQuery {
     background-image: url("../images/musiQuery_scrnshot.jpg");
     background-size: cover;
-    /* background-position: center; */
 }
 
 #gifTastic {
     background-image: url("../images/gifTastic.png");
     background-size: cover;
-    /* background-position: center; */
 }
 
 #triviaGame {
     background-image: url("../images/TriviaGame.jpg");
     background-size: cover;
-    /* background-position: center; */
 }
 
 #crystalCollect {
     background-image: url("../images/crystalCollectors.jpg");
     background-size: cover;
-    /* background-position: center; */
 }
 
 #hangman {
     background-image: url("../images/wordGuessGame.jpg");
     background-size: cover;
-    /* background-position: center; */
 }
 
 #train {
     background-image: url("../images/trainScheduler.jpg");
     background-size: cover;
-    /* background-position: center; */
+}
+
+#liri {
+    background-image: url("../images/liri_scrn.jpg");
+    background-size: cover;
 }
 
 a {
