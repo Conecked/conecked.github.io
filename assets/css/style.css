@@ -12,6 +12,8 @@ body {
     #crystalCollect,
     #hangman,
     #train
+    #liri,
+    #friendFinder
      {
         background-position: center;
     }
@@ -25,7 +27,8 @@ body {
     #crystalCollect,
     #hangman,
     #train,
-    #liri
+    #liri,
+    #friendFinder
      {
         background-position: center;
     }
@@ -63,6 +66,11 @@ body {
 
 #liri {
     background-image: url("../images/liri_scrn.jpg");
+    background-size: cover;
+}
+
+#friendFinder {
+    background-image: url("../images/FriendFinder_scrnshot.jpg");
     background-size: cover;
 }
 
