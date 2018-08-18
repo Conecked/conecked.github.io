@@ -29,6 +29,7 @@ body {
     #train,
     #liri,
     #friendFinder
+    #burger
      {
         background-position: center;
     }
@@ -71,6 +72,11 @@ body {
 
 #friendFinder {
     background-image: url("../images/FriendFinder_scrnshot.jpg");
+    background-size: cover;
+}
+
+#burger {
+    background-image: url("../images/burger.png");
     background-size: cover;
 }
 
