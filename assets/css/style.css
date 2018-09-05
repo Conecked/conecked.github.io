@@ -13,7 +13,9 @@ body {
     #hangman,
     #train
     #liri,
-    #friendFinder
+    #friendFinder,
+    #dynaKitch,
+    #burger
      {
         background-position: center;
     }
@@ -29,7 +31,8 @@ body {
     #train,
     #liri,
     #friendFinder
-    #burger
+    #burger,
+    #dynaKitch
      {
         background-position: center;
     }
@@ -77,6 +80,11 @@ body {
 
 #burger {
     background-image: url("../images/burger.png");
+    background-size: cover;
+}
+
+#dynaKitch {
+    background-image: url("../images/DKS_scrnsht.jpg");
     background-size: cover;
 }
 
