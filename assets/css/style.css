@@ -16,7 +16,8 @@ body {
     #friendFinder,
     #dynaKitch,
     #burger,
-    #clickyGame
+    #clickyGame,
+    #sportScraper
      {
         background-position: center;
     }
@@ -34,7 +35,8 @@ body {
     #friendFinder
     #burger,
     #dynaKitch,
-    #clickyGame
+    #clickyGame,
+    #sportScraper
      {
         background-position: center;
     }
@@ -92,6 +94,11 @@ body {
 
 #clickyGame {
     background-image: url("../images/clickyGame.png");
+    background-size: cover;
+}
+
+#sportScraper {
+    background-image: url("../images/sportScraper_scrnsht.png");
     background-size: cover;
 }
 
