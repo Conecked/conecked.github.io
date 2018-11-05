@@ -17,7 +17,8 @@ body {
     #dynaKitch,
     #burger,
     #clickyGame,
-    #sportScraper
+    #sportScraper,
+    #wAe
      {
         background-position: center;
     }
@@ -36,7 +37,8 @@ body {
     #burger,
     #dynaKitch,
     #clickyGame,
-    #sportScraper
+    #sportScraper,
+    #wAe
      {
         background-position: center;
     }
@@ -99,6 +101,11 @@ body {
 
 #sportScraper {
     background-image: url("../images/sportScraper_scrnsht.png");
+    background-size: cover;
+}
+
+#wAe {
+    background-image: url("../images/wae_scrnsht.png");
     background-size: cover;
 }
 
